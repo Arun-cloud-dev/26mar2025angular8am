@@ -1,4 +1,11 @@
 
 
-<app-header></app-header>
+<app-header>
+</app-header>
 
+
+<p *appCustomIf = "showMessage">this is a conditionally displayed !</p>
+<button (click)="showMessage = !showMessage"> Toggle Message </button>
+
+<!-- 
+*ngIf, *ngFor, *ngSwitch -->
