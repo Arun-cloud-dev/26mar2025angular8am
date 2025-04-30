@@ -13,6 +13,9 @@ import { type NewTaskData } from '../task/task.model';
 export class NewTaskComponent {
   @Output() cancel = new EventEmitter<void>();
   @Output() add = new EventEmitter<NewTaskData>();
+
+
+  
   enteredTitle = '';
   enteredSummary = '';
   enteredDate = '';
