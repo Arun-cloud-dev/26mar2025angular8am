@@ -23,6 +23,7 @@ main {
     text-align: center;
 }
 
+
 @media (min-width: 768px) {
     main {
         margin: 4rem auto;
